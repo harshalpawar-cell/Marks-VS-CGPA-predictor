@@ -10,15 +10,21 @@ The dataset used in this project is manually created but tries to follow a reali
 ---
 
 Features
+
 • Predict CGPA based on subject marks
+
 • Simple and easy-to-understand code
+
 • Beginner-friendly machine learning project
 
 ---
 
 Technologies Used
+
 • Python
+
 • Pandas
+
 • Scikit-learn
 
 ---
