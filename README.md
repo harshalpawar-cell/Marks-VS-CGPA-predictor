@@ -1,6 +1,6 @@
 Marks vs CGPA Predictor
 
-Overview
+
 This is a simple machine learning project that predicts a student's CGPA based on their subject marks. The main idea of this project is to understand how basic regression models work in real life.
 
 In this project, I used marks from four subjects: Maths, Physics, Computer Science, and English as input features. Based on these marks, the model predicts the expected CGPA of a student. I used Linear Regression from the sklearn library because it is easy to understand and suitable for beginners.
