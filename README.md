@@ -11,20 +11,20 @@ This project is mainly built for learning purposes as I am currently in my first
 In the future, this project can be improved by using a larger and real dataset, adding more subjects, and improving accuracy.
 
 
-Features
-1.Predict CGPA based on subject marks
-2.Simple and easy to understand code
-3.Beginner-friendly machine learning project
+Features.
+1.Predict CGPA based on subject marks.
+2.Simple and easy to understand code.
+3.Beginner-friendly machine learning project.
 
 
-Technologies Used
-1.Python
-2.Pandas
-3.Scikit-learn
+Technologies Used.
+1.Python.
+2.Pandas.
+3.Scikit-learn.
 
 
-How to Run
-1.Install required libraries: pip install pandas scikit-learn
-2.Run the Python file
+How to Run.
+1.Install required libraries: pip install pandas scikit-learn.
+2.Run the Python file.
 3.Enter marks when prompted
 4.Get predicted CGPA
