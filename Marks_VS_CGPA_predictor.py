@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-# --- Dataset (sample) ---
 data = {
     "maths":    [92, 85, 78, 88, 67, 73, 81, 90, 60, 76, 84, 69, 95, 55, 72, 80, 66, 87, 91, 74],
     "physics":  [90, 82, 75, 85, 65, 70, 79, 88, 58, 74, 80, 66, 94, 52, 70, 78, 64, 85, 89, 72],
@@ -13,24 +12,19 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Features & Target
 X = df[["maths", "physics", "cs", "english"]]
 y = df["cgpa"]
 
-# Split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-# Model
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-# --- User Input ---
 m = float(input("Maths marks: "))
 p = float(input("Physics marks: "))
 c = float(input("CS marks: "))
 e = float(input("English marks: "))
 
-# Prediction
 cgpa_pred = model.predict([[m, p, c, e]])
 
 print("Predicted CGPA:", round(cgpa_pred[0], 2))
